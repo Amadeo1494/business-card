@@ -5,12 +5,11 @@
 }
 
 :root {
-    --clr-axolotl: #355a85;
-    --clr-green-kelp: #192532;
-    --clr-green-spring: #d3d8d7;
-    --clr-salomie: #a9adac;
-    --clr-saffron-mango: #79604f;
-    --clr-yellow-orange: #d3d8d7;
+    --clr-chambray: #355A85;
+    --clr-mirage: #192532;
+    --clr-edward: #A9ADAC;
+    --clr-roman-coffee: #79604F;
+    --clr-iron: #D3D8D7;
 }
 
 body {
@@ -19,7 +18,7 @@ body {
     min-height: 100vh;
     display: grid;
     place-items: center;
-    background: linear-gradient(var(--clr-salomie), var(--clr-saffron-mango));
+    background: linear-gradient(var(--clr-edward), var(--clr-roman-coffee));
     background-position: center;
     background-size: cover;
     perspective: 500px;
@@ -45,7 +44,7 @@ body {
     display: block;
     height: 2px;
     width: 5em;
-    background: var(--clr-yellow-orange);
+    background: var(--clr-iron);
     margin: 0.5em auto;
     opacity: 0.4;
 }
@@ -53,7 +52,7 @@ body {
 .profile-occupation {
     font-size:  1rem;
     letter-spacing: 2px;
-    color: var(--clr-yellow-orange);
+    color: var(--clr-iron);
     margin-bottom: 2em;
 }
 
@@ -64,8 +63,8 @@ body {
     max-width: 600px;
     display: flex;
     flex-direction: column;
-    background: var(--clr-axolotl);
-    color: var(--clr-green-spring);
+    background: var(--clr-chambray);
+    color: var(--clr-iron);
     text-align: center;
     padding: 1.4em;
     border-radius: 20px;
@@ -74,7 +73,7 @@ body {
 
 .profile-photo {
     border-radius: 50%;
-    border: 3px solid var(--clr-yellow-orange);
+    border: 3px solid var(--clr-iron);
     max-width: 100%;
     height: 200px;
 }
@@ -91,7 +90,7 @@ body {
 }
 
 .social-link {
-    color: var(--clr-yellow-orange);
+    color: var(--clr-iron);
     opacity: 0.5;
     font-size: 1.5rem;
 }
@@ -104,7 +103,7 @@ body {
 @media (min-width: 600px) {
     .card {
         flex-direction: row;
-        background: linear-gradient(to right, var(--clr-green-kelp) 40%, var(--clr-axolotl) 20%);
+        background: linear-gradient(to right, var(--clr-mirage) 40%, var(--clr-chambray) 20%);
     }
 
     .profile-photo {
