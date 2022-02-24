@@ -23,5 +23,5 @@ I             |  II
 :-------------------------:|:-------------------------:
 <img width=400 src="./images/responsive-3D-large.jpg" /> | <img height=200 src="./images/responsive-3D-small.jpg" />
 
-### Referebces:
+### References:
 The profile picture .png taken from [pngwing](https://www.pngwing.com/)
